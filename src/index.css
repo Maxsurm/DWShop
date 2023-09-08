@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rc-pagination {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rc-pagination-item {
+    background-color: transparent !important;
+    padding: 5px 8px;
+    border: none !important;
+    font-weight: bold;
+    font-family: 'Kalam', sans-serif;
+    box-shadow: black
+}
+
+.rc-pagination-item.rc-pagination-item-active {
+    background-color: #24ec46 !important;
+}
+
+.rc-pagination-item.rc-pagination-item-active a {
+    color: white !important;
+}
